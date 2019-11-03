@@ -1,0 +1,13 @@
+.hero-banner{
+    width: 100vw;
+    min-height: 561px;
+    background: linear-gradient(rgba(255,255,255,.95),rgba(255,255,255,.85),rgba(255,255,255,.85),#fff),url('../../assets/home_bg_alt.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+.hero-banner-content{
+    padding-top: 100px;
+}
+.hero-banner-content-text{
+    margin-top: 50%;
+}
