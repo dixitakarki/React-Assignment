@@ -1,8 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import home from "../components/home/home";
-import about from "../components/about/about";
-import products from "../components/products/products";
 import getStarted from "../components/getStarted/getStarted";
     const routes = [{
         path: "/home",
@@ -12,6 +10,10 @@ import getStarted from "../components/getStarted/getStarted";
         path: "/get-started",
         exact:true,
         component: getStarted
+    }, {
+        path: "/",
+        exact:true,
+        component: home
     }
 ];
  
